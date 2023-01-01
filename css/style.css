@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;300;400;500;600;700&family=Quando&family=Raleway:ital,wght@0,400;0,500;0,800;0,900;1,600;1,800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+   font-family: Raleway;
+   background-color: rgb(49, 55, 138);
+   color:#fff;
+   padding:50px;
+   text-align: center;
+   border-bottom: 2px solid rgb(19, 25, 109);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+
+}
+nav h1{
+    color:#fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-right: 40px;
+}
+
+nav ul li a{
+    color:#fff;
+}
+
+footer{
+    font-family: Raleway;
+    background-color: rgb(49, 55, 138);
+    color:#fff;
+    padding:30px;
+    text-align: center;
+    border-top: 2px solid rgb(19, 25, 109);
+ }
