@@ -4,25 +4,31 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: Raleway;
+}
+
+body{
+    width: 100%;
 }
 
 header{
-   font-family: Raleway;
-   background-color: rgb(49, 55, 138);
-   color:#fff;
-   padding:50px;
+   background-color: whitesmoke;
+   color:rgb(48, 47, 47);
+   padding: 2px 0;
    text-align: center;
-   border-bottom: 2px solid rgb(19, 25, 109);
+   border-bottom: 2px solid rgb(117, 117, 117);
+   height: 70px;
+   
 }
 
 nav{
     display: flex;
     justify-content: space-around;
-    padding: 25px;
+    padding: 10px;
 
 }
 nav h1{
-    color:#fff;
+    color:rgb(48, 47, 47);
     font-size: 40px;
     font-weight: bold;
 }
@@ -38,14 +44,49 @@ nav ul li{
 }
 
 nav ul li a{
-    color:#fff;
+    color:rgb(48, 47, 47);;
+}
+
+.container{
+   display: flex;
+   background-color: rgb(233, 229, 229);
+   background-image: url('../img/computer- fiber.jpeg');
+   background-size: cover;
+   align-items: center;
+   height: 80vh;
+   padding: 0 10%;
+   justify-content: left;
+}
+
+.content-1 h1{
+    font-size: 40px;
+    color:rgb(48, 47, 47);
+    margin-right: 200px;
+}
+
+.content-1 p{
+    font-size: 25px;
+    color:rgb(48, 47, 47);
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.content-1 a{
+    display: inline-block;
+    background-color: rgb(2, 4, 41);
+    font-size: 18px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 footer{
-    font-family: Raleway;
-    background-color: rgb(49, 55, 138);
-    color:#fff;
+    background-color: whitesmoke;
+    color:rgb(48, 47, 47);
     padding:30px;
     text-align: center;
-    border-top: 2px solid rgb(19, 25, 109);
+    justify-items: center;
+    border-top: 2px solid rgb(117, 117, 117);
+    padding-top: 20px;
  }
