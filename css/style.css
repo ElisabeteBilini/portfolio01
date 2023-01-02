@@ -7,16 +7,16 @@
     font-family: Raleway;
 }
 
+ /* Style pg index.html */
 body{
     width: 100%;
 }
 
 header{
-   background-color: whitesmoke;
-   color:rgb(48, 47, 47);
+   background-color:  #213a5c;
    padding: 2px 0;
    text-align: center;
-   border-bottom: 2px solid rgb(117, 117, 117);
+   border-bottom: 2px solid #0e2038;
    height: 70px;
    
 }
@@ -28,7 +28,7 @@ nav{
 
 }
 nav h1{
-    color:rgb(48, 47, 47);
+    color:#d3d3d3;
     font-size: 40px;
     font-weight: bold;
 }
@@ -44,36 +44,36 @@ nav ul li{
 }
 
 nav ul li a{
-    color:rgb(48, 47, 47);;
+    color:#d3d3d3;
 }
 
 .container{
    display: flex;
-   background-color: rgb(233, 229, 229);
+   background-color: #6d829b;
    background-image: url('../img/computer- fiber.jpeg');
    background-size: cover;
    align-items: center;
-   height: 80vh;
+   height: 85vh;
    padding: 0 10%;
    justify-content: left;
 }
 
-.content-1 h1{
+.content h1{
     font-size: 40px;
     color:rgb(48, 47, 47);
     margin-right: 200px;
 }
 
-.content-1 p{
+.content p{
     font-size: 25px;
     color:rgb(48, 47, 47);
     margin-top: 10px;
     margin-bottom: 35px;
 }
 
-.content-1 a{
+.content a{
     display: inline-block;
-    background-color: rgb(2, 4, 41);
+    background-color: #074276;
     font-size: 18px;
     text-decoration: none;
     color: whitesmoke;
@@ -81,12 +81,62 @@ nav ul li a{
     border-radius: 5px;
 }
 
+.content-2{
+    background-color: #e84d1b;
+    height: 75vh;
+}
+
+.content-2 h1{
+    color: #efeeee;
+}
+
 footer{
-    background-color: whitesmoke;
-    color:rgb(48, 47, 47);
+    background-color:  #213a5c;
+    color:#d3d3d3;
     padding:30px;
     text-align: center;
     justify-items: center;
-    border-top: 2px solid rgb(117, 117, 117);
+    border-top: 2px solid #0e2038;
     padding-top: 20px;
  }
+
+ /* Style pg services.html */
+
+ .container-service{
+   background-color: #6d829b;
+   background-size: cover; /* put img background */
+   width: 100%;
+   margin: 0 auto;
+}
+
+.service{
+    width: 35%;
+    margin: 2%;
+    padding: 20px;
+    display: inline-block;
+}
+
+.service h1{
+    font-family: Raleway, sans-serif;
+    font-size: 35px;
+    color:#efeeee
+}
+
+.service h3{
+    margin-top: 15px;
+    font-family: Raleway, sans-serif;
+    font-size: 25px;
+    color:#efeeee
+}
+
+ul li{
+    list-style: none;
+    margin-top: 30px;
+}
+
+.img{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
