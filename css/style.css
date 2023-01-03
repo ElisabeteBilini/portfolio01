@@ -45,6 +45,12 @@ nav ul li{
 
 nav ul li a{
     color:#d3d3d3;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color:#e84d1b;
+      
 }
 
 .container{
@@ -119,7 +125,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     height: 81vh;
-    background-image: url('../img/background-white.jpg');
+    background-image: url('../img/backgroun-blue.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,7 +139,7 @@ footer{
     
  }
 
- .container-service h1{
+ .container-service h2{
     font-size: 40px;
     margin-bottom: 60px;
  }
@@ -159,24 +165,68 @@ footer{
  }
 
  /* Style pg contact.html */
-
- .form-container{
-   background-color: #0e2038;
-   justify-content: center;
- }
-
- .contact-us h1{
-    color:#fff;
-    margin: center;
+.contact-principal{
+    display: flex;
+    left: 90px;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:  url('../img/background-contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    background: transparent;
+    width: 600px;
+}
+
+.contact-us h2{
+    color:#d3d3d3;
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+.contact-us p{
+    color:#d3d3d3;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    color: #d3d3d3;
+    margin-bottom: 15px;
  }
 
- .contact-us p{
-    color:#fff;
-    margin: center;
- }
+input{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 0.5px;
+}
 
- input, textarea, button{
-    border-radius: 3px;
- }
+button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 30%;
+    font-size: 15px;
+    border: 2px solid #d3d3d3;
+    background: transparent;
+    color:#d3d3d3;
+    font-weight: bold;
+}
 
+button:hover{
+    background: #d3d3d3;
+    color: #0e2038;
+}
