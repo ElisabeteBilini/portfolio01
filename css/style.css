@@ -49,11 +49,11 @@ nav ul li a{
 
 .container{
    display: flex;
-   background-color: #6d829b;
+   background-color: #e84d1b;
    background-image: url('../img/computer- fiber.jpeg');
    background-size: cover;
    align-items: center;
-   height: 81vh;
+   height: 80vh;
    padding: 0 10%;
    justify-content: left;
 }
@@ -88,6 +88,18 @@ nav ul li a{
 
 .content-2 h1{
     color: #efeeee;
+}
+
+.mission{
+    background-color: #e84d1b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us h2{
+    font-size: 24px;
 }
 
 footer{
