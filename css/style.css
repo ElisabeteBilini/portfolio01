@@ -104,7 +104,8 @@ footer{
 
  .container-2{
     display: flex;
-    align-content:space-around;
+    align-items: center;
+    justify-content: space-around;
     height: 81vh;
     background-image: url('../img/background-white.jpg');
     background-position: center;
@@ -115,33 +116,32 @@ footer{
 
  .container-service{
     display: block;
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 10px;
-    padding-left: 20px;
+    align-items: center;
+    margin: 20px 50px;
+    
  }
 
  .container-service h1{
     font-size: 40px;
-    margin-top: 40px;
-    font-weight: bold;
-    
+    margin-bottom: 60px;
  }
 
  .container-service h3{
-    margin-top: 25px;
-    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 50px;
  }
 
  .container-service ul li{
-    list-style: none;
     font-size: 20px;
-    margin-top: 30px;
-    padding: 10px 0;
+    list-style: none;
+    margin-bottom: 30px;
  }
 
+ .img-service {
+    display: block;
+    
+ }
  .img-service img{
-     height: 100px;
-     display: block;
-     
+   width: 200px;
+    margin-right: 15px;
  }
