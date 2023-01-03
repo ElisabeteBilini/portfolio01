@@ -148,4 +148,23 @@ footer{
 
  /* Style pg contact.html */
 
- 
+ .form-container{
+   background-color: #0e2038;
+   justify-content: center;
+ }
+
+ .contact-us h1{
+    color:#fff;
+    margin: center;
+    align-items: center;
+ }
+
+ .contact-us p{
+    color:#fff;
+    margin: center;
+ }
+
+ input, textarea, button{
+    border-radius: 3px;
+ }
+
