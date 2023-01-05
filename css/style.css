@@ -96,25 +96,58 @@ ul li a:hover{
     color: #efeeee;
 }
 
+.about-us{
+    background-color:  #c3e3fd;
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+.about-us h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-us p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.about-us img{
+    
+}
+
 .container-grid{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
 }
 
 
 .container-grid > div{
-    background-color: #e48d70;
+    background-color: #c3e3fd;
     color: black;
     padding: 20px;
     text-align: center;
     font-size: 20px;
 }
+
 .container-grid h2{
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.container-grid ul li{
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    line-height: 35px;
 }
 
 footer{
