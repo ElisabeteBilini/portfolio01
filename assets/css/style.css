@@ -191,7 +191,7 @@ footer{
 
 .links-home h2{
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .links-home ul li{
@@ -242,15 +242,11 @@ footer{
     text-align: center;
     color: #d3d3d3;
     margin-bottom: 15px;
-}
-
-
-.form-footer label{
     color: #fff;
     font-size: 25px;
 }
 
-.form-footer input[type="email"]{
+.form-footer input[type="textl"]{
     justify-content: center;
     align-items: center;
     color: black;
@@ -267,6 +263,7 @@ footer{
 .footer-btn:hover{
     color:black;
     background: #e84d1b;
+    
 }
 
  /* Style pg services.html */
