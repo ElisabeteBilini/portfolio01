@@ -56,7 +56,7 @@ ul li a:hover{
 .container{
    display: flex;
    background-color: #e84d1b;
-   background-image: url('assets/img/computer- fiber.jpeg');
+   background-image: url('../img/computer- fiber.jpeg');
    background-size: cover;
    align-items: center;
    height: 85vh;
@@ -208,7 +208,7 @@ button .submit{
     align-items: center;
     justify-content: space-around;
     height: 81vh;
-    background-image: url('assets/img/backgroun-blue.png');
+    background-image: url('../img/backgroun-blue.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -254,7 +254,7 @@ button .submit{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image:  url('assets/img/background-white.jpg');
+    background-image:  url('../img/background-white.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
