@@ -59,7 +59,7 @@ ul li a:hover{
    background-image: url('../img/computer- fiber.jpeg');
    background-size: cover;
    align-items: center;
-   height: 80vh;
+   height: 85vh;
    padding: 0 10%;
    justify-content: left;
 }
@@ -96,27 +96,74 @@ ul li a:hover{
     color: #efeeee;
 }
 
-.mission{
-    background-color: #e84d1b;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
-.about-us h2{
-    font-size: 24px;
+
+.container-grid > div{
+    background-color: #e48d70;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.container-grid h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer{
     background-color:  #213a5c;
-    color:#d3d3d3;
-    padding:30px;
+    padding: 2px 0;
     text-align: center;
-    justify-items: center;
-    border-top: 2px solid #0e2038;
-    padding-top: 20px;
- }
+    height: 70px;
+    width: 100%;
+}
+.container-footer{
+    background-color:  #213a5c; 
+    color:#d3d3d3; 
+    padding:30px; 
+    text-align: center; 
+    justify-items: center; 
+    display: block;
+    border-top: 2px solid #0e2038; 
+    padding-top: 20px; 
+}
+.container-footer p {
+    text-align: center;
+    justify-content: center;
+    bottom:10px;
+}
+
+.menu-footer{
+    text-decoration: none; 
+    display: inline; 
+    align-items: center; 
+    justify-content: center;
+    margin:10px;
+    font-size: 20px; 
+}
+
+.menu-footer a{
+    color: #d3d3d3;
+}
+
+.form-footer{
+    font-size: 20px;
+    display: inline;
+    padding: 5px 10px;
+    align-items: center;
+    text-align: center;
+}
+
+button .submit{
+  
+}
 
  /* Style pg services.html */
 
@@ -164,7 +211,7 @@ footer{
     margin-right: 15px;
  }
 
- /* Style pg contact.html */
+  /* Style pg contact.html */
 .contact-principal{
     display: flex;
     left: 90px;
