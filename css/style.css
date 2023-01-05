@@ -251,7 +251,7 @@ button .submit{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image:  url('../img/background-contact.jpg');
+    background-image:  url('../img/background-white.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -263,13 +263,13 @@ button .submit{
     justify-content: center;
     flex-direction: column;
     padding: 10px 20px;
-    background: transparent;
+    background: #26619c;
     width: 600px;
 }
 
 .contact-us h2{
     color:#d3d3d3;
-    font-size: 30px;
+    font-size: 35px;
     margin: 10px;
 }
 
