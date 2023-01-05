@@ -97,7 +97,7 @@ ul li a:hover{
 }
 
 .about-us{
-    background-color:  #c3e3fd;
+    background-color: #fff;
     text-align: justify;
     padding: 5px 10px;
 }
@@ -117,10 +117,6 @@ ul li a:hover{
     padding-bottom: 10px;
 }
 
-.about-us img{
-    
-}
-
 .container-grid{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -128,7 +124,7 @@ ul li a:hover{
 
 
 .container-grid > div{
-    background-color: #c3e3fd;
+    background-color: #fff;
     color: black;
     padding: 20px;
     text-align: center;
@@ -143,11 +139,18 @@ ul li a:hover{
     padding-bottom: 20px;
 }
 
+.container-grid p{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
 .container-grid ul li{
     text-decoration: none;
     list-style: none;
     text-align: left;
     line-height: 35px;
+    padding-top: 40px;
 }
 
 footer{
