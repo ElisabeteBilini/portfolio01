@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;300;400;500;600;700&family=Quando&family=Raleway:ital,wght@0,400;0,500;0,800;0,900;1,600;1,800&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400&family=Bakbak+One&family=Judson:ital,wght@0,400;0,700;1,400&family=Nunito:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Quando&family=Raleway:ital,wght@0,400;0,500;0,800;0,900;1,600;1,800&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: Raleway;
+    font-family: 'Nunito', serif;
 }
 
  /* Style pg index.html */
@@ -24,13 +23,15 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 5px;
+    align-items: center;
 
 }
 nav h1{
     color:#d3d3d3;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
+    padding: 5px;
 }
 
 nav ul{
@@ -46,6 +47,7 @@ nav ul li{
 nav ul li a{
     color:#d3d3d3;
     text-decoration: none;
+    font-size: 20px;
 }
 
 ul li a:hover{
@@ -60,19 +62,21 @@ ul li a:hover{
    background-size: cover;
    align-items: center;
    height: 85vh;
-   padding: 0 10%;
+   padding: 0 5%;
    justify-content: left;
 }
 
-.content h1{
-    font-size: 40px;
-    color:rgb(48, 47, 47);
+.content h2{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
     margin-right: 200px;
 }
 
 .content p{
     font-size: 25px;
-    color:rgb(48, 47, 47);
+    color:black;
+    font-weight: bold;
     margin-top: 10px;
     margin-bottom: 35px;
 }
@@ -85,6 +89,7 @@ ul li a:hover{
     color: whitesmoke;
     padding: 10px 20px;
     border-radius: 5px;
+    
 }
 
 .content-2{
@@ -97,24 +102,32 @@ ul li a:hover{
 }
 
 .about-us{
-    background-color: #fff;
-    text-align: justify;
-    padding: 5px 10px;
+    text-align: center;
+    background-color:gainsboro;
+    color: black;
+    
+    padding-bottom: 10px;
 }
 
 .about-us h2{
+    font-family: 'nunito', serif;
     font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background: #e25822;
+    border-bottom: 2px solid gainsboro;
+    border-style: groove;
+    box-shadow: 4px 4px 4px #074276;
 }
 
 .about-us p{
+    padding-top: 15px;
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
+    line-height: 40px;
 }
 
 .container-grid{
@@ -122,35 +135,49 @@ ul li a:hover{
     grid-template-columns: auto auto auto;
 }
 
-
 .container-grid > div{
-    background-color: #fff;
+    background-color: gainsboro;
     color: black;
-    padding: 20px;
     text-align: center;
     font-size: 20px;
+   
+}
+
+.container-grid img{
+    width: 50px;
+    margin-right: 20px;
+    justify-items: center;
+    align-items: center;
 }
 
 .container-grid h2{
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
     font-style: italic;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
 .container-grid p{
     font-size: 20px;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+   align-items: center;
+    text-align: center;
+    line-height: 40px;
+    width: 80%;
 }
 
 .container-grid ul li{
     text-decoration: none;
     list-style: none;
     text-align: left;
-    line-height: 35px;
-    padding-top: 40px;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.fa-solid{
+    font-size:15px;
+    padding-right: 5px;
 }
 
 footer{
@@ -371,6 +398,7 @@ footer{
     height: 50px;
     width: 100%;
     border-radius: 8px;
+    font-size: 15px;
        
  }
 
@@ -378,6 +406,8 @@ footer{
     height: 150px;
     width: 100%;
     border-radius: 8px;
+    font-size: 15px;
+    padding-top: 5px;
     
  }
 
