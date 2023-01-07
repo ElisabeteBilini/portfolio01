@@ -78,13 +78,14 @@ ul li a:hover{
     font-size: 25px;
     color:black;
     font-weight: bold;
-    margin-right: 200px;
+    margin-right: 200px;padding-bottom: 20px;
 }
 
-.content button{
+.btn-content{
+    text-decoration: none;
     margin-top: 10px;
     width: 200px;
-    font-size: 15px;
+    font-size: 120x;
     background: #e84d1b;
     border-color: transparent;
     color:black;
@@ -92,7 +93,8 @@ ul li a:hover{
     border-radius: 5px;
     padding: 5px 10px;
 }
-.content button:hover{
+
+.btn-content:hover{
     background-color: #a0c7eb;
     border-radius: 5px;
     padding: 5px 10px;
@@ -111,8 +113,8 @@ ul li a:hover{
     text-align: center;
     background-color:gainsboro;
     color: black;
-    
     padding-bottom: 10px;
+    width: 100%;
 }
 
 .about-us h2{
@@ -131,9 +133,12 @@ ul li a:hover{
 
 .about-us p{
     padding-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
     font-size: 20px;
     padding-bottom: 30px;
     line-height: 40px;
+    width: 95%;
 }
 
 .container-grid{
@@ -275,9 +280,10 @@ footer{
     margin-left:20%;
     margin-right: 20%;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
-.form-footer button{
+.btn-subscribe{
     margin-top: 10px;
     width: 100px;
     font-size: 15px;
@@ -286,9 +292,10 @@ footer{
     font-weight: bold;
     border-radius: 5px;
     padding: 5px 10px;
+     text-decoration: none;
 }
 
-.form-footer button:hover{
+.btn-subscribe:hover{
     background-color: #e25822;
     border-radius: 5px;
     padding: 5px 10px;
@@ -442,13 +449,85 @@ button{
     margin-top: 10px;
     width: 30%;
     font-size: 15px;
-    border: 2px solid #d3d3d3;
+    border: 3px solid #d3d3d3;
     background: transparent;
-    color:#d3d3d3;
+    color:  #d3d3d3;
     font-weight: bold;
+    width: 100%;
+    border-radius: 8px;
 }
 
 button:hover{
-    background: #d3d3d3;
+    background: #0e2038;
+    color:  #d3d3d3;
+}
+
+ /* Style pg thanks.html */
+.for-you{
+    background-image: url('../img/background-white.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 85vh;
+}
+
+.thank-you{
+    display: block;
+    background-color: #074276;
+    width: 500px;
+    height:500px;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-thanks h1{
+    padding-top: 100px;
+    font-size: 80px;
+    color:white;
+    text-align: center;
+
+}
+
+.content-thanks h2{
+    position: relative;    
+    font-size: 35px;
+    color:white;
+    text-align: center;
+}
+
+.content-thanks p{
+    padding-top: 15px;
+    font-size: 25px;
+    color:white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#button-thanks{
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 2px solid #d3d3d3;
+    background: #a0c7eb;
+    color:black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#button-thanks:hover{
+    border-radius: 10px;
+    background:  #e25822;
     color: #0e2038;
 }
