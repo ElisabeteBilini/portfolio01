@@ -531,3 +531,24 @@ button:hover{
     background:  #e25822;
     color: #0e2038;
 }
+
+
+/* clients page*/
+
+.clients{
+    width: 100%;
+    height: 20vh;
+    background: gainsboro;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 25px;
+    color: #e84d1b;
+    text-decoration:underline;
+    text-decoration-color: #213a5c;
+}
+
+.clients-logo-grid{
+    display: inline-block;
+}
