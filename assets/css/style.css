@@ -323,7 +323,9 @@ footer{
 }
 
  /* Style pg services.html */
-
+main{
+    background-color: gainsboro;
+}
  .container-2{
     display: flex;
     align-items: center;
@@ -344,13 +346,16 @@ footer{
  }
 
  .container-service h2{
-    font-size: 40px;
-    margin-bottom: 60px;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color:#e84d1b;
  }
 
  .container-service h3{
     font-size: 25px;
     margin-bottom: 50px;
+    color:#0e2038;
  }
 
  .container-service ul li{
@@ -358,6 +363,11 @@ footer{
     list-style: none;
     margin-bottom: 30px;
  }
+
+ .fa-solid{
+    font-size:15px;
+    padding-right: 5px;
+}
 
  .img-service {
     display: block;
@@ -535,20 +545,58 @@ button:hover{
 
 /* clients page*/
 
-.clients{
-    width: 100%;
-    height: 20vh;
-    background: gainsboro;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
-    font-size: 25px;
-    color: #e84d1b;
-    text-decoration:underline;
-    text-decoration-color: #213a5c;
+.clients-container{
+    height: 80vh;
+    display:100%;
 }
 
-.clients-logo-grid{
-    display: inline-block;
+.clients{
+    height: 20vh;
+    width: 100%;
+    background-color: gainsboro;
+}
+
+.clients h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: #e84d1b;
+    color:#0e2038;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.clients p{
+    font-size: 30px;
+    color:#0e2038;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.clients-business{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.clients-logo img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.clients-logo a{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+   justify-items: center;
 }
