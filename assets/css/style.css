@@ -27,15 +27,15 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 60px;
-    padding-top: 10px;
+    width: 55px;
     position: absolute;
-    margin-right: 80%;
+    margin-right: 78%;
+    padding-bottom: 5px;
 }
 
 nav h1{
     color:#d3d3d3;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
     padding: 5px;
     position: relative;
@@ -149,57 +149,50 @@ ul li a:hover{
 }
 
 .container-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    align-content: center;
     justify-content: center;
 }
 
-.container-grid > div{
-    color: black;
-    text-align: center;
-    align-items: center;
-    font-size: 20px;
-}
-
 .container-grid img{
-    width: 80px;
-    justify-items: center;
     align-items: center;
+    width: 45px;
 }
 
 .container-grid h2{
     font-size: 40px;
-    font-style: italic;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 15px;
     text-align: center;
-    width: 80%;
+    align-items: center;
+    font-style: italic;
     color: #e25822;
 }
 
 .container-grid p{
     font-size: 20px;
-    padding-top: 5px;
+    padding-top: 20px;
     padding-bottom: 10px;
     margin-left: 10px;
     align-items: center;
     text-align: center;
     line-height: 40px;
-    width: 80%;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .container-grid ul li{
+    font-size: 20px;
     text-decoration: none;
     list-style: none;
-    text-align: left;
+    text-align: center;
     line-height: 25px;
     padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 .fa-solid{
     font-size:15px;
-    padding-right: 5px;
 }
 
 footer{
