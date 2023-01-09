@@ -23,9 +23,14 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
-    padding: 5px;
+    padding: 1px;
     align-items: center;
-
+}
+nav img{
+    width: 60px;
+    padding-top: 10px;
+    position: absolute;
+    margin-right: 80%;
 }
 
 nav h1{
@@ -33,7 +38,9 @@ nav h1{
     font-size: 35px;
     font-weight: bold;
     padding: 5px;
+    position: relative;
 }
+
 
 nav ul{
     display: flex;
