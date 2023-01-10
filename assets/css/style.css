@@ -619,6 +619,7 @@ main{
 .clients{
     height: 20vh;
     width: 100%;
+    background: white;
 }
 
 .clients h1{
@@ -626,18 +627,19 @@ main{
     color:#e84d1b;
     text-align: center;
     padding-top: 20px;
+    background: gainsboro;
 }
 
 .clients p{
-    font-size: 30px;
+    font-size: 25px;
     color:#0e2038;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
+    background: gainsboro;
 }
 
-.clients-countainer{
-    padding: 10px;    
+.clients-container{
     justify-content: center;
 }
 
@@ -645,6 +647,7 @@ main{
     width:100%;
     margin: 0 auto;
     background: white;
+    padding-bottom: 25px;
 }
 
 .clients-logo{
@@ -660,6 +663,7 @@ main{
 .clients-logo a{
     text-decoration: none;
     color:black;
+    max-width: 150px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -675,13 +679,11 @@ main{
     background-image: url(../img/vodafone.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
 }
 #three{
     background-image: url(../img/three.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }      
 #code-institute{
     background-image: url(../img/code-institute.png);
@@ -692,31 +694,26 @@ main{
     background-image: url(../img/tesco-mobile.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 #aib{
     background-image: url(../img/aib.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 #primark{
     background-image: url(../img/primark.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 #permanenttsb{
     background-image: url(../img/permanent.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 #dunnesstores{
     background-image: url(../img/dunnes.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 
