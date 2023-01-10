@@ -447,6 +447,7 @@ main{
     border-radius: 8px;
     font-size: 15px;
     padding-top: 5px;
+    margin-bottom: 13px;
     
  }
 
@@ -454,25 +455,24 @@ main{
     background: #a0c7eb;
  }
 
-button{
-    padding: 10px;
-    margin-top: 10px;
-    width: 30%;
+.btn-thanks-contact{
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 100px;
     font-size: 15px;
     border: 3px solid #d3d3d3;
     background: transparent;
     color:  #d3d3d3;
     font-weight: bold;
-    width: 100%;
     border-radius: 8px;
 }
 
-button:hover{
+.btn-thanks-contact:hover{
     background: #0e2038;
     color:  #d3d3d3;
 }
 
- /* Style pg thanks.html */
+ /* Style pg thanks.html subscribe  */
 .for-you{
     background-image: url('../img/background-white.jpg');
     background-position: center;
@@ -542,25 +542,88 @@ button:hover{
     color: #0e2038;
 }
 
+/*thanks - contact page */
+
+.contact-thanks{
+    background-image: url('../img/background-white.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 85vh;
+}
+
+.contact-thanks-return{
+    display: block;
+    background-color: #074276;
+    width: 500px;
+    height:500px;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-thanks-return h1{
+    padding-top: 100px;
+    font-size: 80px;
+    color:white;
+    text-align: center;
+
+}
+
+.contact-thanks-return h2{
+    position: relative;    
+    font-size: 35px;
+    color:white;
+    text-align: center;
+}
+
+.contact-thanks-return p{
+    padding-top: 15px;
+    font-size: 25px;
+    color:white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#button-return{
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 2px solid #d3d3d3;
+    background: #a0c7eb;
+    color:black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#button-return:hover{
+    border-radius: 10px;
+    background:  #e25822;
+    color: #0e2038;
+}
+
 
 /* clients page*/
-
-.clients-container{
-    height: 80vh;
-    display:100%;
-}
 
 .clients{
     height: 20vh;
     width: 100%;
-    background-color: gainsboro;
 }
 
 .clients h1{
     font-size: 40px;
-    text-decoration: underline;
-    text-decoration-color: #e84d1b;
-    color:#0e2038;
+    color:#e84d1b;
     text-align: center;
     padding-top: 20px;
 }
@@ -570,36 +633,93 @@ button:hover{
     color:#0e2038;
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.clients-countainer{
+    padding: 10px;    
+    justify-content: center;
 }
 
 .clients-business{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    width:100%;
+    margin: 0 auto;
+    background: white;
 }
 
-.clients-logo img{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.clients-logo{
     width: 200px;
+    height: 200px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin: 3% 1%;
+    padding: 8px;
+    margin-left: 120px;
+}
+.clients-logo a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo-brand{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: contain;
 }
 
-.clients-logo a{
-    font-size: 15px;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    text-align: center;
-   justify-items: center;
+#vodafone{
+    background-image: url(../img/vodafone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+#three{
+    background-image: url(../img/three.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}      
+#code-institute{
+    background-image: url(../img/code-institute.png);
+    background-position:center;
+    background-repeat: no-repeat;
+}   
+#tesco-mobile{
+    background-image: url(../img/tesco-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#aib{
+    background-image: url(../img/aib.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#primark{
+    background-image: url(../img/primark.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#permanenttsb{
+    background-image: url(../img/permanent.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#dunnesstores{
+    background-image: url(../img/dunnes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 @media screen and (max-width: 1600){
     header{
         padding-right:40px;
