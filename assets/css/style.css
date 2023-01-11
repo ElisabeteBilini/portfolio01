@@ -92,7 +92,7 @@ ul li a:hover{
     text-decoration: none;
     margin-top: 10px;
     width: 200px;
-    font-size: 120x;
+    font-size: 20px;
     background: #e84d1b;
     border-color: transparent;
     color:black;
@@ -194,134 +194,120 @@ ul li a:hover{
     font-size:15px;
 }
 
-footer{
-    background-color:  #213a5c;
-    padding: 2px 0;
-    text-align: center;
-    border-top: 2px solid #0e2038;
-    height: 300px;
+ul{
+    list-style: none;
+}
+
+
+.footer{
+    background-color: #0e2038;
+    padding: 70px 0;
 }
 
 .container-footer{
+    width: 80%;
+    margin: auto;
+}
+
+.row{
     display: flex;
-    width: 100%;
-    height: 300px;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
- }
+    flex-wrap: wrap;
+}
 
- .links-home{
-    display: inline-flex;
-    width: 30%;
-    height: 80%;
+.footer-col{
+    width: 33%;
+    padding: 0 15px;
+}
+
+.footer-col ul li{
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
     font-size: 20px;
-    padding-left: 15px;
-    text-align: left;
-    line-height: 50px;
- }
-
- .links-home ul li, .links-home ul li a, .menu-footer ul li, .menu-footer ul li a{
-    list-style: none;
+    text-align: center;
+    color:white;
     text-decoration: none;
-    color: #efeeee;
- }
-
-.links-home ul li a:hover{
-    background: #e25822;
-    border-radius: 5px;
-    padding: 5px 10px;;
 }
 
-.menu-footer ul li a:hover{
+.footer-col ul li a:hover{
     background: #e25822;
-    border-radius: 50%;
+    border-radius: 80%;
     padding: 5px 10px;
 }
 
- .form-footer{
-    background: gainsboro;
-    width: 40%;
-    height: 80%;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    align-items: center;
-    align-content: center;
-    justify-content: center; 
- }
-
-.newsletter{
-    font-family: 'Oswald';
-    font-size: 30px;
-    text-align: center;
-    justify-content: center;
-    font-weight: bold;
+.footer-newsletter{
+    margin-bottom: 2rem;
 }
 
-.newsletter-p{
-    font-family: 'Oswald';
-    font-size: 20px;
-    padding-top: 20px;
-    text-align: center;
-    justify-content: center;
+.footer-newsletter h2{
+   color:white;
+   padding-bottom: 15px;
+   padding-left: 5px;
 }
 
-.form-footer input{
-    display: flex;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items: center;
-    text-align:left;
+#footer-email{
+    width: 250px;
+    height: 40px;
     font-size: 15px;
-    width: 60% ;
-    height: 30px;
-    margin-top: 15px;
-    margin-left:20%;
-    margin-right: 20%;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.btn-subscribe{
-    margin-top: 10px;
-    width: 100px;
-    font-size: 15px;
-    background: #a0c7eb;
-    color:black;
-    font-weight: bold;
     border-radius: 5px;
-    padding: 5px 10px;
-     text-decoration: none;
+    padding-left: 5px;
 }
 
-.btn-subscribe:hover{
+#footer-email-botton{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
     background-color: #e25822;
     border-radius: 5px;
-    padding: 5px 10px;
 }
 
-.form-footer input:focus{
+#footer-email-botton:hover{
+   background-color: #a0c7eb;
+   color:black;
+}
+
+#footer-email:focus{
     background: #e6b8a5;
+    font-weight: bold;
 }
 
- .menu-footer{
-    list-style: none;
-    width: 30%;
-    height: 80%;
-    font-size: 25px;
-    color: #efeeee;
+.maps{
+    justify-content: center;
+    justify-items: center;
+    height: 300px;
+}
+
+.row-maps{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.maps h2{
+    color: black;
+    font-size: 30px;
     text-align: center;
-    line-height: 50px;
- }
+}
+
+.maps-location{
+    width: 50%;
+    height: 50vh;
+    background-color: purple;
+}
+
+.adress-location{
+    width: 50%;
+    background-color: yellow;
+    height: 50vh;
+}
 
 
 .copy{
-    color: black;
-    font-weight:bold;
-    font-size: 15px;
     text-align: center;
-}
-
+    color: red;
+    padding-bottom: 5px;
+ }
  /* Style pg services.html */
 main{
     background-color: gainsboro;
@@ -398,9 +384,8 @@ main{
     justify-content: center;
     flex-direction: column;
     padding: 10px 20px;
-   
     border-radius: 10px;
-    box-shadow: 2px 2px 2px, rgb(48, 47, 47);
+    box-shadow: 2px 2px 2px rgb(48, 47, 47);
     background-image:  url('../img/soft-gradient-solid-color-4k-yl.jpg');
     background-repeat: no-repeat;
     background-size: cover;
