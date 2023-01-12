@@ -215,6 +215,13 @@
     <li>Paths for GitHub.</li>
     </ul>
 </ul>
+<ul>
+ <li>formsubmit.co/</li>
+    <ul>
+    <li>Form terminal that sends the entries to our email.</li>
+    </ul>
+</ul>
+
 
 <h2>Content</h2>
 <ul>
@@ -236,6 +243,11 @@
  <li>fontawesome.com</li>
  <li>pngegg.com</li>
  </ul>
+</ul>
+ <li>Colors</li>
+ <ul>
+ <li>fabmood.com</li>
+  </ul>
 </ul>
 
 <h2>Summary</h2>

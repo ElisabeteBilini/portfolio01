@@ -85,26 +85,8 @@ ul li a:hover{
     font-size: 25px;
     color:black;
     font-weight: bold;
-    margin-right: 200px;padding-bottom: 20px;
-}
-
-.btn-content{
-    text-decoration: none;
-    margin-top: 10px;
-    width: 200px;
-    font-size: 20px;
-    background: #e84d1b;
-    border-color: transparent;
-    color:black;
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 5px 10px;
-}
-
-.btn-content:hover{
-    background-color: #a0c7eb;
-    border-radius: 5px;
-    padding: 5px 10px;
+    margin-right: 200px;
+    padding-bottom: 20px;
 }
 
 .content-2{
@@ -217,6 +199,13 @@ ul{
 .footer-col{
     width: 33%;
     padding: 0 15px;
+    justify-content: center;
+}
+
+.footer-col h2{
+   color: #e25822;
+   padding-bottom: 15px;
+   font-size: 22px;
 }
 
 .footer-col ul li{
@@ -273,41 +262,48 @@ ul{
     font-weight: bold;
 }
 
-.maps{
-    justify-content: center;
-    justify-items: center;
-    height: 300px;
-}
 
 .row-maps{
     display: flex;
-    flex-wrap: wrap;
-}
-
-.maps h2{
-    color: black;
-    font-size: 30px;
-    text-align: center;
+    justify-content: center;
+    border-bottom: 2px solid #0e2038;
 }
 
 .maps-location{
-    width: 50%;
-    height: 50vh;
-    background-color: purple;
+    width: 80%;
 }
 
-.adress-location{
-    width: 50%;
-    background-color: yellow;
-    height: 50vh;
+.address-location{
+    width: 30%;
+    align-items: center;
+    padding-left: 160px;
+    background: #0e2038;
 }
 
+.address-location h2{
+    color: #e25822;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    font-size: 22px;
+}
+
+.address-location ul li{
+    font-size: 20px;
+    text-align: left;
+    color:white;
+    text-decoration: none;
+}
 
 .copy{
     text-align: center;
-    color: red;
+    color:#074276;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
     padding-bottom: 5px;
  }
+
+
  /* Style pg services.html */
 main{
     background-color: gainsboro;
@@ -419,6 +415,7 @@ main{
  }
 
  .contact input{
+    padding-left: 5px;
     height: 50px;
     width: 100%;
     border-radius: 8px;
@@ -429,6 +426,7 @@ main{
  .contact textarea{
     height: 150px;
     width: 100%;
+    padding-left: 5px;
     border-radius: 8px;
     font-size: 15px;
     padding-top: 5px;
@@ -440,9 +438,8 @@ main{
     background: #a0c7eb;
  }
 
-.btn-thanks-contact{
+.btn-contact{
     padding: 10px 20px;
-    margin-top: 50px;
     width: 100px;
     font-size: 15px;
     border: 3px solid #d3d3d3;
@@ -452,12 +449,13 @@ main{
     border-radius: 8px;
 }
 
-.btn-thanks-contact:hover{
+.btn-contact:hover{
     background: #0e2038;
     color:  #d3d3d3;
 }
 
- /* Style pg thanks.html subscribe  */
+ /* Style pg thanks.html subscribe */
+
 .for-you{
     background-image: url('../img/background-white.jpg');
     background-position: center;
@@ -794,7 +792,7 @@ nav ul li a{
     color:transparent;
  }
  .form-footer input{
-      font-size: 0;
+     font-size: 0;
      width:0 ;
      height: 0;
   border-color:transparent;
