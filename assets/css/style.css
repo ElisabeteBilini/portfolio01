@@ -60,7 +60,8 @@ nav ul li a{
 
 ul li a:hover{
     background-color:#e84d1b;
-      
+    border-radius: 15px;
+    padding: 10px 20px;
 }
 
 .container{
@@ -70,32 +71,150 @@ ul li a:hover{
    background-size: cover;
    align-items: center;
    height: 85vh;
-   padding: 0 5%;
    justify-content: left;
 }
 
-.content h2{
+.content{
+    background-color: #0e2038;
+    box-shadow: 10px 10px 20px  white;
+    margin-left: 100px;
+    border-radius: 40px;
+    width: 450px;
+    height: 200px;
+    position: absolute;
+}
+.content-tittle h2{
+    width: 100%;
     font-size: 50px;
-    color:black;
+    padding-left: 105px;
+    color:#e84d1b;
     font-weight: bold;
-    margin-right: 200px;
+    position: relative
 }
 
-.content p{
+.content-tittle p{
+    width: 100%;
     font-size: 25px;
-    color:black;
+    padding-left: 150px;
+    color: white;
     font-weight: bold;
-    margin-right: 200px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    position: relative
 }
 
-.content-2{
+.content-tittle a{
+    text-decoration: none;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 270px;
+    font-weight: bold;
+    position: relative;
+    background-color:  white;
+    padding: 8px 16px;
+    border-radius: 40px;
+    color:#e84d1b;
+}
+
+.content-tittle a:hover{
     background-color: #e84d1b;
-    height: 75vh;
+    color: #0e2038;
+    font-size: 20px;
+    padding: 15px 25px;
+    margin-left: 260px;
+ }
+
+.cards{
+    width: 100%;
+    height: 80vh;
+ }
+    
+.cards h2{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;  
+    padding-bottom: 10px;
+    color:#e25822;
+    }
+    
+.cards h3{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;  
+    color:black;
+    padding-top: 50px;
 }
 
-.content-2 h1{
-    color: #efeeee;
+h4{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;  
+    padding-bottom: 30px;
+    color:#e25822;
+}
+    
+.cards p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;  
+    color:black;
+    padding-bottom: 60px;
+}
+.container-service-card{
+    display: inline-flex;
+    float:left;
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 40px;
+    justify-content: space-around;
+}
+    
+.card-service{
+    height: 200px;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: white;
+    transition: 0.4s linear;
+    border: 0.2px solid #e25822;
+    box-shadow: 5px 5px 10px #e25822;
+}
+    
+.card-service:hover{
+    transform: scale(1.2);
+}
+    
+.card-service h2{
+    text-align: center;
+    color:blue;
+    font-size: 35px;
+}
+    
+.image{
+    max-width: 60px;
+    padding-top: 20px;
+
+}
+    
+.card-service a{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    padding: 10px 20px;
+    background-color: #e25822;
+    border-radius: 20px;
+}
+    
+.card-service a:hover{
+    padding: 15px 20px;
+    color:white;
+    background-color: #213a5c;
+    transition: 0.5s all;
 }
 
 .about-us{
@@ -306,59 +425,67 @@ ul{
 
  /* Style pg services.html */
 main{
-    background-color: gainsboro;
+    background-color: white;
 }
  .container-2{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 81vh;
-    background-image: url('../img/backgroun-blue.png');
+    background-image: url('../img/fiber-white.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
  }
 
  .container-service{
     display: block;
     align-items: center;
-    margin: 20px 50px;
-    
+    margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
  }
 
  .container-service h2{
     font-size: 50px;
-    margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 20px;
     font-weight: bold;
     color:#e84d1b;
  }
 
  .container-service h3{
     font-size: 25px;
-    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 30px;
     color:#0e2038;
  }
 
- .container-service ul li{
-    font-size: 20px;
-    list-style: none;
-    margin-bottom: 30px;
+ .container-service h4{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    color:#e84d1b;
  }
 
- .fa-solid{
-    font-size:15px;
-    padding-right: 5px;
-}
+ .container-service p{
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 40px;
+    color:#0e2038;
+    font-weight: bold;
+ }
 
  .img-service {
     display: block;
-    
+    margin-left: 100px; 
  }
+ 
  .img-service img{
-   width: 200px;
-    margin-right: 15px;
- }
+    width: 200px;
+    background-position: right;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 
   /* Style pg contact.html */
 
@@ -600,7 +727,6 @@ main{
 /* clients page*/
 
 .clients{
-    height: 20vh;
     width: 100%;
     background: white;
 }
@@ -630,7 +756,7 @@ main{
     width:100%;
     margin: 0 auto;
     background: white;
-    padding-bottom: 25px;
+    padding-bottom: 40px;
 }
 
 .clients-logo{
@@ -639,7 +765,7 @@ main{
     display: inline-block;
     justify-content: center;
     text-align: center;
-    margin: 3% 1%;
+    margin: 1% 1%;
     padding: 8px;
     margin-left: 120px;
 }
@@ -650,6 +776,14 @@ main{
     font-weight: bold;
     font-size: 20px;
 }
+
+.clients-logo a:hover{
+    background-color: #e84d1b;
+    color:#0e2038;
+    padding: 15px;
+    border-radius: 10px;
+}
+
 .logo-brand{
     height: 200px;
     width: 100%;
@@ -700,21 +834,9 @@ main{
 }
 
 
-@media screen and (max-width: 1600){
-    header{
-        padding-right:40px;
-    }
-}
-
-@media screen and (max-width: 1280px){
-    header{
-        padding-right:70px;
-    }
+@media screen and (max-width: 1600px){
     nav img{
-        margin-right: 80%;
-    }
-    nav h1{
-        margin-left:45px;
+       
     }
 }
 
