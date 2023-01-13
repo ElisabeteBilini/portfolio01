@@ -75,28 +75,26 @@ ul li a:hover{
 }
 
 .content{
-    background-color: #0e2038;
-    box-shadow: 10px 10px 20px  white;
-    margin-left: 100px;
-    border-radius: 40px;
-    width: 450px;
-    height: 200px;
+    background-color: white;
+    opacity: 0.2;
+    width: 100%;
+    height: 85vh;
     position: absolute;
 }
 .content-tittle h2{
     width: 100%;
-    font-size: 50px;
+    font-size: 60px;
+    font-family: 'Fredoka', nunnito, sans-serif;
     padding-left: 105px;
-    color:#e84d1b;
+    color:#0e2038;
     font-weight: bold;
     position: relative
 }
-
 .content-tittle p{
     width: 100%;
     font-size: 25px;
-    padding-left: 150px;
-    color: white;
+    padding-left: 110px;
+    color: #0e2038;
     font-weight: bold;
     padding-bottom: 30px;
     position: relative
@@ -106,13 +104,13 @@ ul li a:hover{
     text-decoration: none;
     width: 100%;
     font-size: 15px;
-    margin-left: 270px;
+    margin-left: 110px;
     font-weight: bold;
     position: relative;
     background-color:  white;
     padding: 8px 16px;
     border-radius: 40px;
-    color:#e84d1b;
+    color:#0e2038;
 }
 
 .content-tittle a:hover{
@@ -120,7 +118,7 @@ ul li a:hover{
     color: #0e2038;
     font-size: 20px;
     padding: 15px 25px;
-    margin-left: 260px;
+    margin-left: 110px;
  }
 
 .cards{
