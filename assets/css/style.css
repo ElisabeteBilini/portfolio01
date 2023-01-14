@@ -62,8 +62,9 @@ ul li a:hover{
    display: flex;
    background-color: #e84d1b;
    background-image: url('../img/computer- fiber.jpeg');
+   background-attachment: fixed;
    background-size: cover;
-   background-position: 50%;
+   background-position: center center;
    align-items: center;
    height: 85vh;
    justify-content: left;
@@ -71,7 +72,7 @@ ul li a:hover{
 
 .content{
     background-color: white;
-    opacity: 0.2;
+    opacity: 0.6;
     width: 100%;
     height: 85vh;
     position: absolute;
@@ -121,23 +122,23 @@ ul li a:hover{
     height: 80vh;
  }
     
-.cards h2{
-    font-size: 60px;
-    text-align: center;
-    font-weight: bold;  
-    padding-bottom: 10px;
-    color:#e25822;
-    }
-    
-.cards h3{
+ .cards h2{
     font-size: 40px;
     text-align: center;
     font-weight: bold;  
     color:black;
     padding-top: 50px;
+    }
+    
+.cards h3{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;  
+    padding-bottom: 10px;
+    color:#e25822;
 }
 
-h4{
+.card-service h4{
     font-size: 20px;
     padding-top: 20px;
     text-align: center;
@@ -188,8 +189,12 @@ h4{
 }
     
 .image{
+    align-items: center;
+    justify-content: center;
     max-width: 60px;
     padding-top: 20px;
+    width: 80px;
+    height: auto;
 
 }
     
@@ -197,7 +202,8 @@ h4{
     text-align: center;
     font-size: 20px;
     text-decoration: none;
-    color:white;
+    color:black;
+    font-weight: bold;
     padding: 10px 20px;
     background-color: #e25822;
     border-radius: 20px;
@@ -358,8 +364,8 @@ ul{
 #footer-email-botton{
     width: 80px;
     height: 40px;
-    font-size: 15px;
-    color: white;
+    font-size: 18px;
+    color: black;
     background-color: #e25822;
     border-radius: 5px;
 }
@@ -827,95 +833,19 @@ main{
 }
 
 
-@media screen and (max-width: 1600px){
- 
+@media (min-width: 992px)  and (max-width: 1600px){
+
 }
 
 
+@media (min-width: 802px)  and (max-width: 1280px){
 
-
-
-
-
-
-
-
-@media screen and (max-width: 1280px){
-    header{
-        padding: 2px 30px;
-    }
-    nav img{
-        margin-right: 90%;
-    }
-    nav ul{
-        margin-right:250px;
-    }
-    .cards h2, h3{
-        margin-right:180px;
-    }
-    .cards p{
-        width:70%;
-        padding-left:50px;
-    }
-    .container-service-card{
-        margin-left: 60px;
-        margin-right: 60px;
-        padding-left:15px;
-        width:25%;
-        margin-bottom:20px;
-    }
-    .cards{
-        height: 130vh;
-    }
-    .about-us h2{
-        padding-right: 30%;
-    }
-    .container-grid ul li, .container-grid p, .about-us p,.container-grid h2{
-        width: 70%;
-    }
-    .footer-newsletter{
-        margin-right:50px;
-        margin-top:25px;
-    }
 }
 
+@media (min-width: 768px)  and (max-width: 1024px){
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1024px){
- 
 }
 
-
-
-
-
-
-
-
-@media screen and (max-width: 480px){
-
+@media (min-width: 320px)  and (max-width: 480px){
 
 }
