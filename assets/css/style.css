@@ -290,14 +290,9 @@ ul li a:hover{
     padding-bottom: 15px;
 }
 
-.fa-solid{
-    font-size:15px;
-}
-
 ul{
     list-style: none;
 }
-
 
 .footer{
     background-color: #0e2038;
@@ -396,6 +391,7 @@ ul{
     align-items: center;
     padding-left: 160px;
     background: #0e2038;
+    padding-bottom: 15px;
 }
 
 .address-location h2{
@@ -475,14 +471,16 @@ main{
  }
 
  .img-service {
-    display: block;
-    margin-left: 100px; 
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
  }
  
  .img-service img{
-    width: 200px;
+    width: 180px;
     background-position: right;
     padding-top: 10px;
+    padding-right: 5px;
     padding-bottom: 20px;
 }
 
@@ -848,7 +846,7 @@ main{
         font-size: 40px;
     }
     .maps-location iframe{
-        width: 710px;
+        width: 100%;
     }
     .footer-newsletter{
         padding-top: 25px;
@@ -870,7 +868,7 @@ main{
         font-size: 20px;
     }
     .maps-location iframe{
-        width: 600px;
+        width: 100%;
     }
     .footer-newsletter{
         padding-top: 25px;
@@ -897,8 +895,7 @@ main{
         text-align: left;
      }
      .maps-location iframe{
-        width: 540px;
-        height: 156px;
+        width: 100%
     }
     .address-location{
         padding-left: 50px;
@@ -958,7 +955,7 @@ main{
     }
 
     .maps-location iframe{
-        width: 100px;
+        width: 100%;
     }
     .address-location{
         padding-right: 150px;
@@ -984,7 +981,7 @@ main{
         padding-bottom: 10px;
     }
     .maps-location iframe{
-        width: 310px;
+        width: 100%;
     }
     .address-location{
         width: 100%;
