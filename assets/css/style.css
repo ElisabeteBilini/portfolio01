@@ -735,7 +735,7 @@ main{
     color:#e84d1b;
     text-align: center;
     padding-top: 20px;
-    background: gainsboro;
+    background: whitesmoke;
 }
 
 .clients p{
@@ -744,7 +744,9 @@ main{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
-    background: gainsboro;
+    background: whitesmoke;
+    border-bottom: 2px solid #e6b8a5;
+    font-weight: bold;
 }
 
 .clients-container{
@@ -833,19 +835,173 @@ main{
 }
 
 
-@media (min-width: 992px)  and (max-width: 1600px){
-
+@media (min-width: 992px) and (max-width: 1600px){
+    .content-tittle a{
+        background-color: #0e2038;
+        color: white;
+        font-size: 20px;
+    }
+    .container-service-card{
+       margin-right: 50px;
+    }
+    .content-tittle p{
+        font-size: 40px;
+    }
+    .maps-location iframe{
+        width: 710px;
+    }
+    .footer-newsletter{
+        padding-top: 25px;
+    }
 }
 
-
 @media (min-width: 802px)  and (max-width: 1280px){
-
+    .container{
+        background-image: url('../img/cable-fiber-blue.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container-service-card{
+        margin: 0 0 30px 60px;
+    }
+    .content-tittle a{
+        background-color: #0e2038;
+        color: white;
+        font-size: 20px;
+    }
+    .maps-location iframe{
+        width: 600px;
+    }
+    .footer-newsletter{
+        padding-top: 25px;
+    }
+    .address-location{
+        padding-left: 25px;
+    }
 }
 
 @media (min-width: 768px)  and (max-width: 1024px){
-
+    .container{
+        background-image: url('../img/colorful-fiber.jpg')
+    }
+    nav h1{
+        font-size: 40px;
+    }
+    .container-service-card{
+        margin-bottom: 50px;
+     }
+     .about-us{
+        margin-top: 250px;
+     }
+     .about-us h2{
+        text-align: left;
+     }
+     .maps-location iframe{
+        width: 540px;
+        height: 156px;
+    }
+    .address-location{
+        padding-left: 50px;
+    }
 }
 
 @media (min-width: 320px)  and (max-width: 480px){
+    .container{
+        background-image: url('../img/colorful-fiber.jpg');
+        background-size: cover;
+    }
+    header{
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items:left;
+        align-items: center;
+    }
+    nav h1{
+        font-size: 10px;
+    }
+    nav ul li a{
+        font-size: 10px;
+        text-align: left;
+    }
+    
+    .content-tittle h2{
+        font-size: 20px;
+    }
+    .content-tittle p{
+        font-size: 10px;
 
+    }
+    .content-tittle a{
+        font-size: 10px;
+        padding: 5px 10px;
+        margin: 10px;
+    }
+    
+    .cards h2{
+        font-size: 20px;
+    }
+    .cards h3{
+        font-size: 30px;
+    }
+    .cards p{
+        font-size: 15px;
+    }
+
+    .container-service-card{
+        margin: 20px;
+        width: 200px;
+    }
+    .card-service img{
+        width:50px;
+    }
+
+    .maps-location iframe{
+        width: 100px;
+    }
+    .address-location{
+        padding-right: 150px;
+    }
+    .about-us{
+        margin-top: 1100px;
+    }
+    .about-us p{
+        font-size: 15px;
+    }
+    .row, .row-maps{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+    .footer-col {
+        width: 100%;
+    }
+    .footer-col a{
+        align-items: left;
+        margin: 0 0;
+        padding: 5px;
+        padding-bottom: 10px;
+    }
+    .maps-location iframe{
+        width: 310px;
+    }
+    .address-location{
+        width: 100%;
+        align-items: left;
+        margin: 0 0;
+        padding: 20px;
+    }
+    #footer-email-botton{
+        margin-bottom: 0;
+    }
+    
+    .footer{
+        margin-top: 60px;
+     }
+     .container-2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+     }
 }
