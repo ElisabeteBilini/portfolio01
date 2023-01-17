@@ -64,7 +64,7 @@
     </ul>
 </ul>
 
-![Name here](assets/img/services.jpg)
+![Name here](assets/img/services.png)
 
 <ul>
  <li>Contact-Us Page</li>
