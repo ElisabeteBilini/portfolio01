@@ -879,7 +879,7 @@ main{
         height: 55vh;
     }
     .container-service-card{
-        margin: 0 0 30px 60px;
+        margin: 0 0 30px 40px;
     }
     .content-tittle a{
         background-color: #0e2038;
@@ -890,6 +890,9 @@ main{
         display:  flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .about-us h2{
+        padding-left: 250px;
     }
     .maps-location iframe{
         width: 100%;
@@ -941,43 +944,26 @@ main{
 }
 
 @media (min-width: 320px)  and (max-width: 480px){
-    header h1{
-        padding: 15px 10px;
-        text-align: center;
-        font-size: 25px;
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    }  
+    nav h1{
+        font-size: 20px;
     }
-    menu{
-        display: none;
-    }
-    menu > ul{
-        list-style-type: none;
-    }
-    
-    menu > ul > li > a{
-        display: block;
-        padding: 10px;
-        text-decoration: none;
-        text-align: center;
-    }
-    .material-symbols-outlined{
-       display: block;
-       color:white;
-       text-align: center;
-       padding: 5px;
-    
-    }
-    .material-symbols-outlined:hover{
-        background-color: aliceblue;
-        color: blue;
-    }
+    nav ul li a{
+        font-size: 12px;
+        padding-left: -5px;
+        margin-right: -5px;
+      }
     .container{
-        background-image: url('../img/background-white.jpg');
+        background-image: url('../img/colorful-fiber.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     .content{
-        opacity: 0.1;
+        opacity: 0.5;
     }
     .content-tittle{
         padding-top: -20px;
@@ -1019,15 +1005,6 @@ main{
     .card-service img{
         width:50px;
     }
-
-    .maps-location iframe{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .address-location{
-        padding-right: 150px;
-    }
     .about-us{
         margin-top: 1000px;
     }
@@ -1039,8 +1016,9 @@ main{
     .row, .row-maps{
         display: flex;
         flex-direction: column;
-        align-items: left;
+        background-color: #0e2038;
     }
+    
     .footer-col {
         width: 100%;
         padding-bottom: 15px;   
@@ -1052,9 +1030,7 @@ main{
         padding-bottom: 10px;
     }
     .maps-location iframe{
-        width: 100%;
-        margin: 0;
-        padding: 0;
+        width: 300px;
     }
     .address-location{
         width: 100%;
