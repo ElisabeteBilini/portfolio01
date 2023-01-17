@@ -193,6 +193,7 @@ ul li a:hover{
     justify-content: center;
     max-width: 60px;
     padding-top: 20px;
+    padding-bottom: 10px;
     width: 80px;
     height: auto;
 
@@ -375,18 +376,21 @@ ul{
     background: #e6b8a5;
     font-weight: bold;
 }
-
-
 .row-maps{
     display: flex;
     justify-content: center;
     border-bottom: 2px solid #0e2038;
+    width: 100%;
 }
 
 .maps-location{
-    width: 80%;
+    width: 70%;
 }
 
+iframe{
+    width: 100%;
+    height: 200px;
+}
 .address-location{
     width: 30%;
     align-items: center;

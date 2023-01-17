@@ -1,7 +1,12 @@
 <h1>JGA TELECOM</h1>
 
-<p></p>
-<p></p>
+<p>
+JGA Telecom is a small, family-owned company that was designed and created shortly after the start of social isolation due to the pandemic (2020), having as a relevant factor the high growth in search of fast and quality internet, the lack of jobs and the high experience of the people involved in this project.
+</p>
+<p>
+The Telecom sector is an example that innovation is necessary, as changes happen increasingly quickly and profoundly.
+</p>
+<br>
 
 ![Name here](assets/img/mockup.png)
 
@@ -10,30 +15,23 @@
     <ul>
         <li>Navigation Bar</li>
     <ul>
-    <li>It presents the 4 pages of navigation through the website, all are responsive.</li>
+        <li>It presents the 4 pages of navigation through the website, all are responsive.</li>
     </ul>
     </ul>
+    <br>
 
 ![Name here](assets/img/menu.png)
 
 <ul>
-<li>Request information button</li>
-    <ul>
-    <li>Responsive button to request information.</li>
-    <li>Our navigation bar has a hidden screen with a return message to the company's request for information, guaranteeing the customer that the company will receive it.</li>
-    </ul>
-</ul>
-
- ![Name here](assets/img/request.jpg)
-
-<ul>
  <li>Landing Page</li>
     <ul>
-    <li></li>
-    <li></li>
+    <li>It has a demonstration of services provided by JGA Telecom, when clicking on each card customers are directed to the services page where a brief description of each item is described.</li>
+    <li>Below we have the about us section, to learn about our mission, vision and values.</li>
     </ul>
 </ul>
-<ul>
+<br>
+
+![Name here](assets/img/first-page-services.png)
 
 <ul>
 <li>Footer</li>
@@ -41,11 +39,10 @@
     <li>In the footer there are navigation buttons for the pages and also for returning to the top.</li>
     <li>A link to subscribe to the company's channel, with the benefit of receiving Internet tips, news from the fiber optic market and a catalog of services from our partners by email.</li>
     <li>It has access buttons to all the company's social media.</li>
-    <li>The subscribe button also has a hidden thank you screen</li>
     </ul>
 </ul>
 
-![Name here](assets/img/footer.jpg)
+![Name here](assets/img/footer.png)
 
  <li>Clients Page</li>
     <ul>
@@ -70,7 +67,6 @@
  <li>Contact-Us Page</li>
     <ul>
     <li>Responsive form, with return message.</li>
-    <li></li>
     </ul>
 </ul>
 
@@ -90,9 +86,14 @@
 <ul>
  <li>Fonts</li>
     <ul>
-    <li></li>
-    <li></li>
-    </ul>
+    <li>fonts.google.com</li>
+     </ul>
+</ul>
+<ul>
+ <li>Wireframe</li>
+
+![Name here](assets/img/pallete.jpg)
+
 </ul>
 
 <h2>Features left to implement</h2>
@@ -143,24 +144,20 @@
 
 <h2>Testing</h2>
 <ul>
-<li>W3C Markup Validator</li>
+    <li>W3C Markup Validator</li>
     <ul>
-    <li></li>
+    <li>No errors returned</li>
     </ul>
-</ul>
+    <li>W3C CSS Validator (Jigsaw)</li>
+      <ul>
+    <li>No errors returned</li>
+    </ul>
+    <li>Wave.webaim.org</li>
+    <li>Lighthouse (Chrome Developer Tools)</li>
+    <br>
 
-<ul>
- <li>W3C CSS Validator (Jigsaw)</li>
-    <ul>
-    <li></li>
-    </ul>
+![Name here](assets/img/index.copy.png)
 
-</ul>
-<ul>
- <li>Lighthouse (Chrome Developer Tools)</li>
-    <ul>
-    <li></li>
-    </ul>
 </ul>
 
 <h3>Further Testing</h3>
@@ -168,7 +165,8 @@
 
 
 <h2>Bugs and fixes</h2>
-
+    <li>During validation tests my site was experiencing performance issues related to the image of all customer and service pages, in all media sizes.</li>
+    <li>I solved the problem changing the image format from jpg/png to webp.</li>
 
 <h2>Deployment</h2>
 <h3>GitHub</h3>
@@ -220,6 +218,10 @@
     <ul>
     <li>Form terminal that sends the entries to our email.</li>
     </ul>
+<li>Code Institute</li>
+<ul>    
+    <li>README references.</li>
+</ul>
 </ul>
 
 
@@ -230,25 +232,23 @@
 
 <h2>Media</h2>
 <ul>
- <li>Images</li>
- <ul>
- <li>Pexels.com</li>
- <li>Unsplash.com</li>
- <li>istockphoto.com</li>
- </ul>
+    <li>Images</li>
+<ul>
+    <li>Pexels.com</li>
+    <li>Unsplash.com</li>
+    <li>istockphoto.com</li>
+</ul>
 </ul>
 <ul>
- <li>Icons</li>
+    <li>Icons</li>
  <ul>
- <li>fontawesome.com</li>
- <li>pngegg.com</li>
- </ul>
+    <li>fontawesome.com</li>
+    <li>pngegg.com</li>
 </ul>
- <li>Colors</li>
+</ul>
+<ul>
+    <li>Colors</li>
  <ul>
- <li>fabmood.com</li>
-  </ul>
+     <li>fabmood.com - pallete</li>
 </ul>
 
-<h2>Summary</h2>
-<p></p>
