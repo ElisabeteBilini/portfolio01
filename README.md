@@ -3,7 +3,7 @@
 <p></p>
 <p></p>
 
-![Name here](assets/img/screen%20project.jpg)
+![Name here](assets/img/mockup.png)
 
 <h2>Features</h2>
 <h3>Existing Features</h3>
@@ -14,7 +14,7 @@
     </ul>
     </ul>
 
-![Name here](assets/img/menu.jpg)
+![Name here](assets/img/menu.png)
 
 <ul>
 <li>Request information button</li>
