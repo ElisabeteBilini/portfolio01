@@ -987,6 +987,7 @@ main{
     }
     .content-tittle a:hover{
         background-color: #e25822;
+        padding: 5px 10px;
     }
     .cards h2{
         font-size: 20px;
@@ -1018,8 +1019,7 @@ main{
         flex-direction: column;
         background-color: #0e2038;
     }
-    
-    .footer-col {
+        .footer-col {
         width: 100%;
         padding-bottom: 15px;   
     }
@@ -1062,5 +1062,14 @@ main{
         display:  flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .contact-principal{
+        padding-top: 70vh;
+    }
+    .row{
+        padding-top: 200px;
+    }
+    #footer-email{
+        margin-bottom: 5px;
     }
 }
