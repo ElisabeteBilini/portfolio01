@@ -6,6 +6,9 @@ JGA Telecom is a small, family-owned company that was designed and created short
 <p>
 The Telecom sector is an example that innovation is necessary, as changes happen increasingly quickly and profoundly.
 </p>
+<p>Visit our page by clicking here:
+<a href="https://elisabetebilini.github.io/portfolio01/"  target="_blank" rel=”noopener”> JGA Telecom</a>
+</p>
 <br>
 
 ![Name here](assets/img/mockup.png)
@@ -48,6 +51,7 @@ The Telecom sector is an example that innovation is necessary, as changes happen
     <ul>
     <li>It has a list of the company's customers and partners.</li>
     <li>All have their logo and responsive link that leads to the company's website.</li>
+    <li><strong>The use of the brands is for educational purposes only, no contract is binding between the company and this website.</strong></li>
     </ul>
 </ul>
 
@@ -86,13 +90,16 @@ The Telecom sector is an example that innovation is necessary, as changes happen
 <ul>
  <li>Fonts</li>
     <ul>
-    <li>fonts.google.com</li>
-     </ul>
+    <li><a href="https://fonts.google.com/"  target="_blank" rel=”noopener”> Google Fonts</a></li>
+    </ul>
 </ul>
 <ul>
  <li>Wireframe</li>
+ <ul>
+ <li>Decided to keep the design clean with good images.</li>
+ </ul>
 
-![Name here](assets/img/pallete.jpg)
+![Name here](assets/img/wireframe.webp)
 
 </ul>
 
@@ -101,80 +108,73 @@ The Telecom sector is an example that innovation is necessary, as changes happen
 
 <h2>Technologies Used</h2>
 <ul>
- <li>Balsamiq</li>
-    <ul>
-    <li></li>
-    </ul>
-</ul>
-
-<ul>
  <li>HTML</li>
     <ul>
-    <li></li>
+    <li>Used to give structure to website.</li>
     </ul>
 </ul>
 
 <ul>
  <li>CSS</li>
     <ul>
-    <li></li>
+    <li>Used to style the structure created for the website.</li>
     </ul>
 </ul>
 
 <ul>
- <li>Gitpod</li>
+    <li><a href="https://gitpod.io/"  target="_blank" rel=”noopener”> GitPod</a></li>
     <ul>
-    <li></li>
+    <li>Open source platform used for code development.</li>
     </ul>
 </ul>
 
 <ul>
-<li>GitHub</li>
+    <li><a href="https://github.com/"  target="_blank" rel=”noopener”> GitHub</a></li>
     <ul>
-    <li></li>
+    <li>Internet hosting service platform, used to host the website address and all its content.</li>
     </ul>
 </ul>
 
 <ul>
  <li>Google Developer Tools</li>
     <ul>
-    <li></li>
+    <li>Used for verification and adjustments relevant to the project.</li>
     </ul>
 </ul>
 
 <h2>Testing</h2>
 <ul>
-    <li>W3C Markup Validator</li>
+    <li><a href="https://validator.w3.org/"  target="_blank" rel=”noopener”> W3C Markup Validator</a></li>
     <ul>
     <li>No errors returned</li>
     </ul>
-    <li>W3C CSS Validator (Jigsaw)</li>
+        <li><a href="https://jigsaw.w3.org/css-validator/"  target="_blank" rel=”noopener”> W3C CSS Validator (Jigsaw)</a></li>
       <ul>
     <li>No errors returned</li>
     </ul>
-    <li>Wave.webaim.org</li>
-    <li>Lighthouse (Chrome Developer Tools)</li>
+        <li><a href="https://wave.webaim.org/"  target="_blank" rel=”noopener”> Wave</a></li>
+        <li>Lighthouse (Chrome Developer Tools)</a></li>
     <br>
 
 ![Name here](assets/img/index.copy.png)
 
-</ul>
-
-<h3>Further Testing</h3>
-<p></p>
-
-
 <h2>Bugs and fixes</h2>
     <li>During validation tests my site was experiencing performance issues related to the image of all customer and service pages, in all media sizes.</li>
+    <ul>
     <li>I solved the problem changing the image format from jpg/png to webp.</li>
-
+    </ul>
+    
 <h2>Deployment</h2>
 <h3>GitHub</h3>
 <p></p>
-<h4>Deploying a GitHub repository via GitHub Pages</h4>
+<h4></h4>
 <ol>
-<li></li>
-<li></li>
+<li>In the GitHub body of my page, click the menu button: repository;</li>
+<li>Locate the portfolio01 project and click;</li>
+<li>Click on the button: settings;</li>
+<li>Click on the button: pages;</li>
+<li>Click on the button: visit the site.</li>
+
 </ol>
 <h4>Cloning the GitHub Repository</h4>
 <ol>
@@ -186,69 +186,69 @@ The Telecom sector is an example that innovation is necessary, as changes happen
 <li>Press Enter to create your local clone.</li>
 </ol>
 
-
-
 <h2>Credits</h2>
 <ul>
- <li>css-tricks.com/</li>
-    <ul>
+    <li><a href="https://css-tricks.com/"  target="_blank" rel=”noopener”> css-tricks</a></li>
+<ul>
     <li>Used to help in learning and defining Flex-box and Grid.</li>
     </ul>
 </ul>
+
 <ul>
- <li>Slack</li>
+ <li><a href="https://slack.com/intl/en-ie/"  target="_blank" rel=”noopener”> Slack</a></li>
     <ul>
-    <li>Used to understand the use of some tools.</li>
+        <li>Used to understand the use of some tools.</li>
     </ul>
 </ul>
 <ul>
- <li>Kevin Powell (Youtube channel)</li>
+ <li><a href="https://www.youtube.com/watch?v=3elGSZSWTbM"  target="_blank" rel=”noopener”> Kevin Powell</a></li>
     <ul>
     <li>For more information on smart grid and flexbox choices.</li>
     </ul>
 </ul>
 <ul>
- <li>Docs.github.com</li>
+ <li><a href="https://github.com/"  target="_blank" rel=”noopener”> GitHub</a></li>
     <ul>
     <li>Paths for GitHub.</li>
     </ul>
 </ul>
 <ul>
- <li>formsubmit.co/</li>
+ <li><a href="https://formsubmit.co/"  target="_blank" rel=”noopener”> Form Submit</a></li>
     <ul>
     <li>Form terminal that sends the entries to our email.</li>
     </ul>
-<li>Code Institute</li>
-<ul>    
+     <li><a href="https://codeinstitute.net/ie/"  target="_blank" rel=”noopener”> Code Institute</a></li>
+    <ul>    
     <li>README references.</li>
-</ul>
+    </ul>
 </ul>
 
 
 <h2>Content</h2>
 <ul>
- <li></li>
+ <li>The content was passed on by my brother-in-law Ademir Ribeiro, the information is from his company JGA Telecom, which does not have a website or social network for the time being</li>
 </ul>
 
 <h2>Media</h2>
 <ul>
     <li>Images</li>
 <ul>
-    <li>Pexels.com</li>
-    <li>Unsplash.com</li>
-    <li>istockphoto.com</li>
+    <li><a href="https://www.pexels.com/"  target="_blank" rel=”noopener”> Pexels</a></li>
+    <li><a href="https://unsplash.com/"  target="_blank" rel=”noopener”> Unsplash</a></li>
+    <li><a href="https://www.istockphoto.com/"  target="_blank" rel=”noopener”> IStockPhoto</a></li>
 </ul>
 </ul>
 <ul>
     <li>Icons</li>
  <ul>
-    <li>fontawesome.com</li>
-    <li>pngegg.com</li>
+     <li><a href="https://fontawesome.com/"  target="_blank" rel=”noopener”> Font Awesome</a></li>
+     <li><a href="https://www.pngegg.com/"  target="_blank" rel=”noopener”> Pngegg</a></li>
 </ul>
 </ul>
 <ul>
     <li>Colors</li>
  <ul>
-     <li>fabmood.com - pallete</li>
+    <li><a href="https://www.fabmood.com/"  target="_blank" rel=”noopener”> FabMood (pallete)</a></li>
+
 </ul>
 
