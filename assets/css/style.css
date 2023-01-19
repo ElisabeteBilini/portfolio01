@@ -838,7 +838,7 @@ main{
 }
 
 
-@media (min-width: 992px) and (max-width: 1600px){
+@media (min-width: 1281px) and (max-width: 1600px){
     .content-tittle a{
         background-color: #0e2038;
         color: white;
@@ -850,13 +850,28 @@ main{
     }
     .cards{
         width: 100%;
-        height: 80vh;
+        height: 50vh;
+    }
+    .container-service-card{
+        margin: 0 0 30px 40px;
     }
     .cards p, .about-us p, .container-grid p{
         padding-right: 40px;
         padding-left: 40px;
         text-align: center;
     }
+    .card-service h4{
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    .container-service{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 50px;
+    }
+    .about-us{
+        margin-top: 50px;
+     }
     .about-us h2{
         text-align: center;
     }
@@ -873,14 +888,14 @@ main{
     }
 }
 
-@media (min-width: 802px)  and (max-width: 1280px){
+@media (min-width: 803px)  and (max-width: 1280px){
     .container{
         background-image: url('../img/cable-fiber-blue.jpg');
         background-size: cover;
         background-repeat: no-repeat;
     }
     .cards{
-        height: 100vh;
+        height: 90vh;
     }
     .card-service h4{
         font-size: 20px;
@@ -894,6 +909,19 @@ main{
         color: white;
         font-size: 20px;
         justify-content: center;
+    }
+    .row{
+        justify-content: space-around;
+    }
+    .footer-newsletter{
+        padding-top: 20px;
+        justify-content: center;
+    }
+    .maps-location iframe{
+        width: 100%
+    }
+    .address-location{
+        padding-left: 30px;
     }
     .img-service{
         display:  flex;
@@ -914,31 +942,65 @@ main{
     }
   }
 
-@media (min-width: 768px)  and (max-width: 1024px){
-    .container{
-        background-image: url('../img/colorful-fiber.jpg');
+@media (min-width: 488px)  and (max-width: 802px){
+    header{
+        width: 100%;
+        height: 18vh;
+        padding-top: 20px;
     }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    }  
     nav h1{
-        font-size: 40px;
-        margin-left: 10px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        font-size: 20px;
+        padding-left: 5px;
+        margin-right: 5px;
+      }
+    .container{
+        height: 55vh;
+        background-image: url('../img/colorful-fiber.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .content{
+        opacity: 0.5;
+        height: 55vh;
+    }
+    .content-tittle h2{
+        font-size: 35px;
+    }
+    .content-tittle p{
+        font-size: 20px;
     }
     .cards{
         height: 85vh;
-        margin-left: 60px;
+        margin-left: 20px;
     }   
     .cards p{
-        margin-right: 80px;
+       padding: 10px 30px 5px 30px;
+        font-size: 20px;
     }
     .container-service-card{
         margin-bottom: 50px;
      }
      .about-us{
-        margin-top: 250px;
+        margin-top: 850px;
      }
      .about-us h2{
         text-align: center;
      }
-     .card-service h4{
+    .about-us p, .container-grid p, .container-grid ul li{
+        font-size: 20px;
+        padding-right: 20px;
+        padding-left: 5px;
+    }
+    .card-service h4{
         font-size: 20px;
         padding-bottom: 30px;
      }
@@ -951,30 +1013,40 @@ main{
         justify-content: space-around;
     }
     .footer-newsletter{
+        padding-top: 20px;
         justify-content: center;
     }
     .maps-location iframe{
         width: 100%
     }
     .address-location{
-        padding-left: 50px;
+        padding-left: 30px;
+    }
+    .clients-business{
+        margin-left: 30px;
     }
 }
 
-@media (min-width: 320px)  and (max-width: 480px){
+@media screen and (max-width: 480px){
+    header{
+        width: 100%;
+        height: 8vh;
+    }
     nav{
         display: flex;
         flex-wrap: wrap;
     }  
     nav h1{
-        font-size: 20px;
+        font-size: 25px;
+        margin-bottom: 10px;
     }
     nav ul li a{
-        font-size: 12px;
-        padding-left: -5px;
-        margin-right: -5px;
+        font-size: 20px;
+        padding-left: 5px;
+        margin-right: 5px;
       }
     .container{
+        height: 55vh;
         background-image: url('../img/colorful-fiber.jpg');
         background-size: cover;
         background-position: center;
@@ -982,30 +1054,55 @@ main{
     }
     .content{
         opacity: 0.5;
+        height: 55vh;
     }
     .content-tittle{
-        padding-top: -20px;
+        padding-top: 20px;
+        width: 100%;
+        margin: unset;
+        padding: unset;
     }
     .content-tittle h2{
-        font-size: 21px;
+        text-align: left;
+        font-size: 30px;
         color: black;
     }
     .content-tittle p{
-        font-size: 14px;
+        font-size: 20px;
+        text-align: left;
         color: black;
-        margin-bottom: -20px;
+        margin-bottom: 20px;
     }
     .content-tittle a{
-        text-align: right;
+        text-align: left;
         font-size: 10px;
         padding: 5px 10px;
-        margin-left: 200px;
         background-color: #0e2038;
         color: white;
     }
     .content-tittle a:hover{
         background-color: #e25822;
         padding: 5px 10px;
+    }
+    .cards{
+        width: 100%;
+        height: 30vh;
+    }
+    .container-service-card{
+     margin-bottom: 30px;
+    }
+    .container-service{
+        margin: unset;
+        padding: unset;
+        padding: 20px 80px;
+        justify-content: space-around;
+    }
+    .card-service img{
+        width:60px;
+    }
+    .card-service h4{
+        font-size: 20px;
+        padding-bottom: 30px;
     }
     .cards h2{
         font-size: 20px;
@@ -1015,18 +1112,9 @@ main{
     }
     .cards p{
         font-size: 15px;
-    }
-    .container-service{
-        margin: 0;
-        padding: 0;
-    }
-    .container-service-card{
-        margin: 10px;
-        padding-left: 30px;
-        width: 250px;
-    }
-    .card-service img{
-        width:50px;
+        padding: 10px 20px 0 20px;
+        justify-content: center;
+        justify-items: center;
     }
     .about-us{
         margin-top: 1000px;
@@ -1036,55 +1124,64 @@ main{
         padding-right: 25px;
         padding-left: 5px;
     }
+    .footer{
+        margin-top: 10px;
+    }
+    .container-footer{
+        margin-top: -200px;
+    }
     .row, .row-maps{
         display: flex;
-        flex-direction: column;
-        background-color: #0e2038;
+        flex-wrap: wrap;
+        height: auto;
     }
-        .footer-col {
+    .footer-col {
         width: 100%;
         padding-bottom: 15px;   
     }
     .footer-col a{
-        align-items: left;
+        align-items: center;
         margin: 0 0;
         padding: 5px;
         padding-bottom: 10px;
     }
+    .maps-location{
+        background-color: #0e2038;
+        width: 100%;
+    }
     .maps-location iframe{
-        width: 300px;
+        width:100%;
+        justify-content: center;
     }
     .address-location{
         width: 100%;
-        align-items: left;
+        align-items: center;
         margin-top: -80px;
         padding-left: 45px;
     }
     #footer-email-botton{
         margin-bottom: 0;
     }
-    .footer{
-        margin-top: 60px;
-     }
-     .container-2{
+    .container-2{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
     .container-service{
-        margin-left: 0;
-        margin-right: 0;
+        width: 100%;
+        margin-left: unset;
+        margin-right: unset;
     }
-     .clients h2{
+    .clients h2{
         font-size: 25px;
      }
-     .clients p{
+    .clients p{
         font-size: 15px;
      }
-     .clients-business{
-        margin-left: -50px;
+    .clients-business{
+        margin-right: 60px;
      }
-     .img-service{
+    .img-service{
         display:  flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -1097,5 +1194,12 @@ main{
     }
     #footer-email{
         margin-bottom: 5px;
+    }
+    .contact-principal{
+        height: unset;
+        padding: unset;
+    }
+    .footer{
+        margin-top: 0;
     }
 }

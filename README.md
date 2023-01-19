@@ -47,6 +47,7 @@ The Telecom sector is an example that innovation is necessary, as changes happen
 
 ![Name here](assets/img/footer.png)
 
+ <ul>
  <li>Clients Page</li>
     <ul>
     <li>It has a list of the company's customers and partners.</li>
@@ -81,7 +82,6 @@ The Telecom sector is an example that innovation is necessary, as changes happen
  <li>Colours</li>
     <ul>
     <li>To define the color palette, I opted for contrasting ones and also used color psychology: orange is defined as an energetic and vibrant color, while blue is associated with reliability, competence, quality.</li>
-    <li></li>
     </ul>
 </ul>
 
@@ -103,8 +103,10 @@ The Telecom sector is an example that innovation is necessary, as changes happen
 
 </ul>
 
-<h2>Features left to implement</h2>
-<p></p>
+<h2>Features left to implement</h2><ul>
+<li>Implement a system for sending emails with data capture for the thank you page, not using the Code Institute sending system.</li>
+<li>Improve page responsiveness</li>
+</ul>
 
 <h2>Technologies Used</h2>
 <ul>
