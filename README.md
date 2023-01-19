@@ -3,6 +3,8 @@
 <p>
 JGA Telecom is a small, family-owned company that was designed and created shortly after the start of social isolation due to the pandemic (2020), having as a relevant factor the high growth in search of fast and quality internet, the lack of jobs and the high experience of the people involved in this project.
 </p>
+<p>We offer complete support in maintenance and installation of fiber optic cabling. Certainly, Optical Fiber is the most suitable technology to supply the large volume of information that travels daily through networks. And to increase the speed of transmission of digital information, the replacement of metallic cables by optical cables is essential, not to say inevitable.
+</p>
 <p>
 The Telecom sector is an example that innovation is necessary, as changes happen increasingly quickly and profoundly.
 </p>
@@ -29,7 +31,7 @@ The Telecom sector is an example that innovation is necessary, as changes happen
  <li>Landing Page</li>
     <ul>
     <li>It has a demonstration of services provided by JGA Telecom, when clicking on each card customers are directed to the services page where a brief description of each item is described.</li>
-    <li>Below we have the about us section, to learn about our mission, vision and values.</li>
+    <li>We have an about us section to learn about our company, mission, vision and values.</li>
     </ul>
 </ul>
 <br>
@@ -62,7 +64,7 @@ The Telecom sector is an example that innovation is necessary, as changes happen
  <li>Services Page</li>
     <ul>
     <li>List of services provided by JGA Telecom.</li>
-    <li>Images to demonstrate the quality of service provided to customers.</li>
+    <li>At the end of the services section on this page, there are some images to demonstrate the quality of service provided to customers.</li>
     </ul>
 </ul>
 
@@ -215,10 +217,6 @@ The Telecom sector is an example that innovation is necessary, as changes happen
     </ul>
 </ul>
 <ul>
- <li><a href="https://formsubmit.co/"  target="_blank" rel=”noopener”> Form Submit</a></li>
-    <ul>
-    <li>Form terminal that sends the entries to our email.</li>
-    </ul>
      <li><a href="https://codeinstitute.net/ie/"  target="_blank" rel=”noopener”> Code Institute</a></li>
     <ul>    
     <li>README references.</li>
