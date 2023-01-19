@@ -848,6 +848,10 @@ main{
         font-size: 40px;
         margin-right: 15px;
     }
+    .cards{
+        width: 100%;
+        height: 80vh;
+    }
     .cards p, .about-us p, .container-grid p{
         padding-right: 40px;
         padding-left: 40px;
@@ -876,7 +880,11 @@ main{
         background-repeat: no-repeat;
     }
     .cards{
-        height: 55vh;
+        height: 100vh;
+    }
+    .card-service h4{
+        font-size: 20px;
+        padding-bottom: 40px;
     }
     .container-service-card{
         margin: 0 0 30px 40px;
@@ -885,6 +893,7 @@ main{
         background-color: #0e2038;
         color: white;
         font-size: 20px;
+        justify-content: center;
     }
     .img-service{
         display:  flex;
@@ -892,7 +901,7 @@ main{
         justify-content: center;
     }
     .about-us h2{
-        padding-left: 250px;
+        text-align: center;
     }
     .maps-location iframe{
         width: 100%;
@@ -903,11 +912,11 @@ main{
     .address-location{
         padding-left: 25px;
     }
-}
+  }
 
 @media (min-width: 768px)  and (max-width: 1024px){
     .container{
-        background-image: url('../img/colorful-fiber.jpg')
+        background-image: url('../img/colorful-fiber.jpg');
     }
     nav h1{
         font-size: 40px;
@@ -916,8 +925,7 @@ main{
     .cards{
         height: 85vh;
         margin-left: 60px;
-    }
-   
+    }   
     .cards p{
         margin-right: 80px;
     }
@@ -928,14 +936,24 @@ main{
         margin-top: 250px;
      }
      .about-us h2{
-        text-align: left;
+        text-align: center;
+     }
+     .card-service h4{
+        font-size: 20px;
+        padding-bottom: 30px;
      }
      .img-service{
         display:  flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-     .maps-location iframe{
+    .row{
+        justify-content: space-around;
+    }
+    .footer-newsletter{
+        justify-content: center;
+    }
+    .maps-location iframe{
         width: 100%
     }
     .address-location{
@@ -998,6 +1016,10 @@ main{
     .cards p{
         font-size: 15px;
     }
+    .container-service{
+        margin: 0;
+        padding: 0;
+    }
     .container-service-card{
         margin: 10px;
         padding-left: 30px;
@@ -1048,7 +1070,11 @@ main{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-     }
+    }
+    .container-service{
+        margin-left: 0;
+        margin-right: 0;
+    }
      .clients h2{
         font-size: 25px;
      }
