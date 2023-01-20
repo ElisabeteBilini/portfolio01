@@ -107,7 +107,7 @@ The Telecom sector is an example that innovation is necessary, as changes happen
 
 <h2>Features left to implement</h2><ul>
 <li>Implement a system for sending emails with data capture for the thank you page, not using the Code Institute sending system.</li>
-<li>Improve page responsiveness</li>
+<li>Improve responsiveness of all pages and implement responsiveness for screens below 360px.</li>
 </ul>
 
 <h2>Technologies Used</h2>
