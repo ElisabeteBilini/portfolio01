@@ -741,7 +741,7 @@ iframe{
 @media (min-width: 1480px) and (max-width: 1700px){
     .cards{
         display: block;
-        height: 50vh;
+        height: 80vh;
         width: 100%;
     }
     .container-service{
@@ -784,7 +784,7 @@ iframe{
     }
     .cards{
         display: block;
-        height: 70vh;
+        height: 100vh;
         width: 100%;
     }
     .cards p, .about-us p, .container-grid p{
@@ -838,7 +838,7 @@ iframe{
         background-repeat: no-repeat;
     }
     .cards{
-        height: 70vh;
+        height: 100vh;
     }
     .container-service-card{
         margin-bottom: 50px;
@@ -924,9 +924,13 @@ iframe{
 
 @media (min-width: 508px)  and (max-width: 800px){
     .container{
+        height: 85vh;
         background-image: url('../img/cable-fiber-blue.jpg');
         background-size: cover;
         background-repeat: no-repeat;
+    }
+    .content{
+        height: 85vh;
     }
     header{
         height: 100px;
@@ -940,12 +944,6 @@ iframe{
     }
     nav ul li a{
         font-size: 20px;
-    }
-    .container{
-        height: 50vh;
-    }
-    .content{
-        height: 50vh;
     }
     .content-tittle{
         padding-top: 5px;
@@ -971,7 +969,7 @@ iframe{
         padding: 5px 10px;
     }
     .cards{
-        height: 100vh;
+        height: 120vh;
         padding-right: 8px;
         padding-left: unset;
     }
@@ -1135,36 +1133,31 @@ iframe{
     }
 }
 
-@media (min-width:360px)  and (max-width: 479px){
-
+@media (min-width:320px)  and (max-width: 479px){
     .container{
+     height: 85vh;
        background-image: url('../img/colorful-fiber.jpg');
        background-size: cover;
        background-position: center;
        background-repeat: no-repeat;
-   }
-   header{
+    }
+    header{
        height: 90px;
-   }
-   nav{
+    }
+    nav{
        display: flex;
        flex-wrap: wrap;
        padding-top: 15px;
-   }  
-   nav h1{
+       padding-left: 15px;
+    }  
+    nav h1{
        font-size: 25px;
-   }
-   nav ul li a{
+    }
+    nav ul li a{
        font-size: 12px;
-       padding-left: 5px;
-       margin-right: 5px;
+       padding-left: 0;
+       margin-right: 0;
    }
-   .container{
-    height: 50vh;
-}
-    .content{
-    height: 50vh;
-}
    .content-tittle{
        padding-top: 20px;
    }
@@ -1191,22 +1184,38 @@ iframe{
        padding: 5px 10px;
    }
    .cards{
-       height: 125vh;
+       height: 300vh;
    }
    .cards h2, .cards h3{
-    font-size: 40px;
+    font-size: 30px;
    }
    .cards p{
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
    }
    .container-service-card{
        margin-bottom: 40px;
-       margin-left: 80px;
+       margin-left: 60px;
    }
    .card-service h4{
        font-size: 20px;
        margin-bottom: 25px;
+   }
+   .clients h2, .clients p{
+    font-size: 20px;
+   }
+   .clients-logo{
+    margin-left: 50px;
+   }
+   .container-service-2 h2, h3, h4, p{
+    text-align: center;
+    margin-right: 70px;
+   }
+   .img-service{
+    width: 40px;
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: center
    }
     .footer{
     width: 100%;
@@ -1239,12 +1248,7 @@ iframe{
     text-align: center;
     padding-bottom: 10px;
     }
-   .img-service{
-       display:  flex;
-       flex-wrap: wrap;
-       justify-content: center;
-   }
-   .contact-principal{
-    height: 60vh;
-}
+    .contact-principal{
+        height: 140vh;
+    }
 }
